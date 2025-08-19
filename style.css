@@ -946,11 +946,15 @@ form .btn button:hover {
     .contact-section .contact-grid .form {
         padding-bottom: 1em;
     }
+
+    .footer-section .footer-links ul {
+        padding: 0;
+    }
 }
 
 @media (min-width: 300px) and (max-width: 425px) {
     body {
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
 
     .about-section .about-heading h2,
@@ -1005,7 +1009,7 @@ form .btn button:hover {
 
 @media (min-width: 240px) and (max-width: 300px) {
     body {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
     #cross,
