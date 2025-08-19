@@ -888,6 +888,7 @@ form .btn button:hover {
     .front-page .front-page-content .front-page-content2 {
         order: 1;
         justify-items: center;
+        padding-top: 3em;
     }
 
     .front-page .front-page-content .front-page-content1 {
