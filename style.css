@@ -421,6 +421,7 @@ header .logo a img {
     padding: 2em 2em;
     color: var(--txt-color);
     background: var(--contact-bg-color);
+    scroll-margin-top: 3em;
 }
 
 .contact-section .contact-heading h2 {
