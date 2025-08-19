@@ -779,14 +779,14 @@ form .btn button:hover {
     .header-ul {
         position: fixed;
         top: 3em;
-        right: -100%;
-        width: 30%;
-        /* transform: translateX(110%); */
+        right: 0;
+        width: 50%;
+        transform: translateY(-150%);
         display: flex;
         flex-direction: column;
-        background: var(--bg-color);
+        background: #09122ee7;;
         padding: 1em 1em;
-        transition: all 0.8s ease-in-out;
+        transition: all 0.5s ease-in-out;
         border: 0em solid;
         border-radius: 1em;
         z-index: 9998;
@@ -799,9 +799,8 @@ form .btn button:hover {
     }
 
     .header-ul.UlOpen {
-        /* transform: translateX(0%); */
-        right: 0%;
-        transition: all 0.8s ease-in-out;
+        transform: translateX(0%);
+        transition: all 0.5s ease-in-out;
         overflow-x: hidden;
     }
 
