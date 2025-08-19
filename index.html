@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/3f0fe3ab88.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div id="body" class="container">
+        <div class="header-div">
+            <header class="header">
+                <div class="header-content">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./Shubham.jpg" alt="ShubhamLogo" />
+                        </a>
+                    </div>
+                    <div class="flex-end">
+                        <div class="dark-light-mode-ul">
+                            <div class="dark-mode-div">
+                                <img onclick="togglelightTheme()" id="darkMode" src="./assets/darkmode.png" alt="">
+                            </div>
+                            <div class="light-mode-div">
+                                <img onclick="togglelightTheme()" id="lightMode" src="./assets/lightmode.png" alt="">
+                            </div>
+                        </div>
+                        <div class="menu-bar">
+                            <img id="menu" onclick="UlOpen()" src="./assets/menu.png" alt="">
+                        </div>
+                        <div class="cancel">
+                            <img id="cross" src="./assets/cross.png" alt="">
+                        </div>
+                        <div class="ul-sec">
+                            <ul id="ul" class="header-ul">
+                                <a id="about-nav" href="#about">
+                                    <li>
+                                        <div>About</div>
+                                    </li>
+                                </a>
+                                <a id="skill-nav" href="#skill">
+                                    <li>
+                                        <div>Skills</div>
+                                    </li>
+                                </a>
+                                <a id="project-nav" href="#project">
+                                    <li>
+                                        <div>Project</div>
+                                    </li>
+                                </a>
+                                <a id="contact-nav" href="#contact">
+                                    <li>
+                                        <div>Contact</div>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="front-page">
+            <div class="front-page-content">
+                <div class="front-page-content1">
+                    <h1 class="greetings">Hi, I'm</h1>
+                    <h1 class="shubham">Shubham</h1>
+                    <div class="role">I'm a web developer</div>
+                    <div class="resume-download">
+                        <a href="#resume">
+                            <button>Download Resume</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="front-page-content2">
+                    <div class="shubham-img">
+                        <img src="./Shubham.jpg" alt="Shubham_Pics">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="about-section">
+            <div class="about-heading">
+                <h2 id="about-heading">
+                    About Me
+                </h2>
+            </div>
+
+            <div class="about-me">
+                I'm a passionate web developer with experience in building web applicationsusing modern technologies. I
+                enjoy creating effiecient scalable web applications.
+            </div>
+        </div>
+        <div id="skill" class="skills-section">
+            <div class="skill-heading">
+                <h2>Skills</h2>
+            </div>
+            <div class="grid-container">
+                <div id="html" class="html skill">
+                    <div class="html-img img">
+                        <img id="html-img" src="./assets/HTML.png" alt="">
+                    </div>
+                    <div class="skill-name">HTML</div>
+                </div>
+                <div id="css" class="css skill">
+                    <div class="css-img img">
+                        <img id="css-img" src="./assets/CSS.png" alt="">
+                    </div>
+                    <div class="skill-name">CSS</div>
+                </div>
+                <div id="js" class="js skill">
+                    <div class="js-img img">
+                        <img id="js-img" src="./assets/JavaScript.png" alt="">
+                    </div>
+                    <div class="skill-name">JavaScript</div>
+                </div>
+                <div id="ts" class="ts skill">
+                    <div class="ts-img img">
+                        <img id="ts-img" src="./assets/TypeScript.png" alt="">
+                    </div>
+                    <div class="skill-name">TypeScript</div>
+                </div>
+                <div id="react" class="react skill">
+                    <div class="react-img img">
+                        <img id="react-img" src="./assets/React.png" alt="">
+                    </div>
+                    <div class="skill-name">React</div>
+                </div>
+                <div id="tailwind" class="tailwind skill">
+                    <div class="tailwind-img img">
+                        <img id="tailwind-img" src="./assets/Tailwind.png" alt="">
+                    </div>
+                    <div class="skill-name">Tailwind</div>
+                </div>
+                <div id="nodejs" class="nodejs skill">
+                    <div class="nodejs-img img">
+                        <img id="nodejs-img" src="./assets/node.js.png" alt="">
+                    </div>
+                    <div class="skill-name">Node.js</div>
+                </div>
+                <div id="python" class="python skill">
+                    <div class="python-img img">
+                        <img id="python-img" src="./assets/python.png" alt="">
+                    </div>
+                    <div class="skill-name">Python</div>
+                </div>
+                <div id="vs-code" class="vs-code skill">
+                    <div class="vs-code-img img">
+                        <img id="vs-code-img" src="./assets/VsCode.png" alt="">
+                    </div>
+                    <div class="skill-name">VS Code</div>
+                </div>
+                <div id="git" class="git skill">
+                    <div class="git-img img">
+                        <img id="git-img" src="./assets/git.png" alt="">
+                    </div>
+                    <div class="skill-name">Git</div>
+                </div>
+                <div id="github" class="github skill">
+                    <div class="github-img img">
+                        <img id="github-img" src="./assets/github.png" alt="">
+                    </div>
+                    <div class="skill-name">GitHub</div>
+                </div>
+            </div>
+        </div>
+        <div id="project" class="project-section">
+            <div class="project-heading">
+                <h2>Project</h2>
+            </div>
+            <div class="div-for-projects">
+                <div class="project-grid">
+                    <div id="notevault" class="notevault project-box">
+                        <div class="grid-padding">
+                            <a href="https://vaultnote.netlify.app/">
+                                <div class="notevault-img project-img">
+                                    <img id="notevault-img" src="./assets/NoteVault-Img.png" alt="">
+                                </div>
+                            </a>
+                            <div class="notevault-intro-section style">
+                                <div class="h3-notevault h3">
+                                    <h3>NoteVault</h3>
+                                </div>
+                                <div class="p-notevault p">
+                                    A notes storing web applications for storing their notes, pics and even pdfs with
+                                    the unlimited spaces.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="portfolio" class="portfolio project-box">
+                        <div class="grid-padding">
+                            <a href="https://om-dev007.github.io/">
+                                <div class="portfolio-img project-img">
+                                    <img id="portfolio-img" src="./assets/Portfolio-Img.png" alt="">
+                                </div>
+                            </a>
+                            <div class="portfolio-intro-section style">
+                                <div class="h3-portfolio h3">
+                                    <h3>Portfolio</h3>
+                                </div>
+                                <div class="p-portfolio p ">
+                                    A personal portfolio website which showcases my skills, projects, about me, and the
+                                    important links to contact me.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="contact-section">
+            <div class="contact-heading">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-links">
+                    <div class="links-h2">
+                        <h2>Let's Connect</h2>
+                    </div>
+                    <div class="links-intro">
+                        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your
+                        visions.
+                    </div>
+                    <div class="links">
+                        <div class="github-links">
+                            <div class="github-link-padding">
+                                <a id="github-img-a" href="https://github.om-dev007.com">
+                                    <img id="github-img" src="./assets/github.png" alt="">
+                                </a>
+                            </div>
+                            <div class="github-links-show">
+                                <a href="https://github.om-dev007.com">Click Here</a>
+                            </div>
+                        </div>
+                        <div class="linkedin-links">
+                            <div class="linkedin-link-padding">
+                                <a id="linkedin-img-a" href="https://linkedin/kumar-om/9798/.com">
+                                    <img id="linkedin-img" src="./assets/linkedin.png" alt="">
+                                </a>
+                            </div>
+                            <div class="linkedin-links-show">
+                                <a href="https://linkedin/kumar-om/9798/.com">Click Here</a>
+                            </div>
+                        </div>
+                        <div class="instagram-links">
+                            <div class="instagram-link-padding">
+                                <a href="https://instagram/kumar_om9798/">
+                                    <img id="instagram-img" src="./assets/instagram.png" alt="">
+                                </a>
+                            </div>
+                            <div class="instagram-links-show">
+                                <a href="https://instagram/kumar_om9798/">Click Here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <h2>Contact Form</h2>
+                    <form action="">
+                        <div class="label-name">
+                            <label id="name-label" for="name">Name</label>
+                        </div>
+                        <div class="input-section">
+                            <input type="text" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="label-email">
+                            <label id="email-label" for="email">Email</label>
+                        </div>
+                        <div class="input-section">
+                            <input type="email" id="email" placeholder="Enter your email">
+                        </div>
+                        <div>
+                            <label id="message-label" for="message">Message</label>
+                        </div>
+                        <div class="input-section">
+                            <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+                        </div>
+                        <div class="btn">
+                            <button>Send Message </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section">
+            <div class="footer-links">
+                <ul class="footer-ul">
+                    <li>
+                        <div>
+                            <a href="#">Home</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#about">About</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#skill">Skills</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#project">Projects</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#contact">Contact</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-icons">
+                <div class="github-footer footer-icons-container">
+                    <div class="github-footer-padding footer-padding">
+                        <a href="https://github/om-dev007.com">
+                            <img src="./assets/github.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="linkedin-footer footer-icons-container">
+                    <div class="linkedin-footer-padding padding-footer">
+                        <a href="https://linkedin/kumarom9798.com">
+                            <img src="./assets/linkedin.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="instagram-footer footer-icons-container">
+                    <div class="instagram-footer-padding padding-footer">
+                        <a href="https://instagram/kumar_om9798.com">
+                            <img src="./assets/instagram.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-terms-condition">
+                <p>
+                    &copy; 2025 Shubham. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
