@@ -944,6 +944,10 @@ form .btn button:hover {
         gap: 2em;
     }
 
+    .contact-grid .contact-links .links-intro {
+        text-align: justify;
+    }
+
     .contact-section .contact-grid .form {
         padding-bottom: 1em;
     }
@@ -1045,16 +1049,16 @@ form .btn button:hover {
     }
 
     .project-section .div-for-projects .project-grid {
-        grid-template-columns: 15em;
+        grid-template-columns: 12em;
     }
 
     .project-img img {
-        width: 13em;
+        width: 10em;
     }
 
     .contact-section .contact-grid {
         display: grid;
-        grid-template-columns: 15em;
+        grid-template-columns: 12em;
         grid-template-rows: auto;
         gap: 2em;
     }
@@ -1067,6 +1071,11 @@ form .btn button:hover {
         padding: 0em 1em;
     }
 
+    .form .btn button {
+        padding: 0.5em 0.5em !important;
+        font-size: 0.7em !important;
+    }
+
     .form form .input-section input,
     textarea {
         width: 10em;
@@ -1077,6 +1086,7 @@ form .btn button:hover {
 
     .footer-section {
         padding: 1em 1em;
+        font-size: 0.5em;
     }
 
     .footer-section .footer-links ul {
@@ -1139,8 +1149,8 @@ form .btn button:hover {
     }
 
     .form .btn button {
-        padding: 0.3em 0.5em !important;
-        font-size: 0.7em !important;
+        padding: 0.5em 0.5em !important;
+        font-size: 0.5em !important;
     }
 
     .form form .input-section input,
@@ -1159,4 +1169,87 @@ form .btn button:hover {
     .footer-section .footer-links ul {
         padding: 0;
     }
+}
+
+@media (max-width: 240px) {
+    body {
+        font-size: 1em;
+    }
+
+    #cross,
+    #menu {
+        width: 1em;
+    }
+
+    .about-section .about-heading h2,
+    .skills-section .skill-heading h2,
+    .project-section .project-heading h2,
+    .contact-section .contact-heading h2 {
+        font-size: 2em;
+    }
+
+    .grid-container {
+        gap: 1em;
+        grid-template-columns: 5em 5em;
+        grid-template-rows: 5em 5em auto;
+    }
+
+    .grid-container .skill {
+        width: 5em;
+        height: 5em;
+    }
+
+    .grid-container .skill .skill-name {
+        font-size: 0.5em;
+    }
+
+    .grid-container .skill .img {
+        padding-top: 0.5em;
+    }
+
+    .project-section .div-for-projects .project-grid {
+        grid-template-columns: 12em;
+    }
+
+    .project-img img {
+        width: 10em;
+    }
+
+    .contact-section .contact-grid {
+        display: grid;
+        grid-template-columns: 12em;
+        grid-template-rows: auto;
+        gap: 2em;
+    }
+
+    .contact-section .contact-grid .form {
+        padding-bottom: 1em;
+    }
+
+    .contact-grid .contact-links {
+        padding: 0em 1em;
+    }
+
+    .form .btn button {
+        padding: 0.5em 0.5em !important;
+        font-size: 0.5em !important;
+    }
+
+    .form form .input-section input,
+    textarea {
+        width: 10em;
+        padding: 0.4em 0.4em;
+        border: solid 1px #eee;
+        border-radius: 0.5em;
+    }
+
+    .footer-section {
+        padding: 1em 1em;
+        font-size: 0.5em;
+    }
+
+    .footer-section .footer-links ul {
+        padding: 0;
+    }
+
 }
