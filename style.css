@@ -112,11 +112,6 @@ header .logo a img {
     justify-self: center;
 }
 
-.header-ul a:hover {
-    color: #60A5FA;
-    transition: all 0.3s ease-in;
-}
-
 .header-ul a::before {
     content: "";
     background-color: #60A5FA;
@@ -128,9 +123,18 @@ header .logo a img {
     transition: all 0.3s ease-in;
 }
 
+.header-ul a:hover {
+    color: #60A5FA;
+    transition: all 0.3s ease-in;
+}
+
 .header-ul a:hover::before {
     width: 50%;
 }
+
+.header-ul a:active {
+        -webkit-tap-highlight-color: transparent;
+    }
 
 .header-ul a::after {
     content: "";
@@ -785,7 +789,8 @@ form .btn button:hover {
         transform: translateY(-150%);
         display: flex;
         flex-direction: column;
-        background: #09122ee7;;
+        background: #09122ee7;
+        ;
         padding: 1em 1em;
         transition: all 0.5s ease-in-out;
         border: 0em solid;
@@ -1099,6 +1104,7 @@ form .btn button:hover {
     body {
         font-size: 1.3em;
     }
+
     .about-section .about-heading h2,
     .skills-section .skill-heading h2,
     .project-section .project-heading h2,
