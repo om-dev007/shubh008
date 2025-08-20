@@ -3,7 +3,7 @@
 This project is built for **practice and learning**, not as a personal portfolio. I designed this site to experiment with modern CSS and basic JavaScript concepts.
 
 ##  Live Demo  
-[Practice Website on Netlify](https://shubh008.netlify.app/)
+Access the live version [here](https://shubh008.netlify.app/).
 
 ##  Purpose  
 I created this site purely to practice frontend skills. The project links and contact section contain my real links, but the name and photo are placeholders. The focus is on mastering CSS (variables, Flexbox, Grid, responsiveness) and basic JavaScript.
